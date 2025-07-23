@@ -1,0 +1,75 @@
+# Environment files
+.env
+*.env
+.env.*
+!.env.template
+!.env.example
+
+# Credentials and secrets
+*password*
+*secret*
+*token*
+*credential*
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+!*template*
+!*example*
+
+# SSH keys
+.ssh/
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+authorized_keys
+known_hosts
+
+# Homelab runtime files
+homelab/
+~/homelab/
+credentials.txt
+node-token
+kubeconfig
+*.kubeconfig
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Backups
+*.backup
+backups/
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+.python-version
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Test artifacts
+test-results/
+coverage/
